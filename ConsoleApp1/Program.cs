@@ -14,6 +14,8 @@
             Console.WriteLine("Result : {0} ", result);
             Console.WriteLine("Variable : {0} ", number);
             Console.WriteLine("Method Overload Multiply2 :{0} Multiply3 : {1}", Multiply(4,2),Multiply(2,4,6));
+            Console.WriteLine("Method Params : {0}", ParamsKeyword(2,4,6,8,4,2,34,5));
+            Console.ReadLine();
         }
         static void Add(int number1, int number2)
         {
@@ -34,14 +36,10 @@
         {
             return number * number2 * number3;
         }
-        class test
-        {
-            public string name { get; set; }
-        }
 
-        class test2
+        static int ParamsKeyword(params int[] numberList)
         {
-            public int number { get; set; }
+            return numberList.Sum();
         }
     }
 }
