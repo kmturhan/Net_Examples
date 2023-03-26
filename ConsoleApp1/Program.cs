@@ -14,6 +14,8 @@
             Console.WriteLine("Result : {0} ", result);
             Console.WriteLine("Variable : {0} ", number);
             Console.WriteLine("Method Overload Multiply2 :{0} Multiply3 : {1}", Multiply(4,2),Multiply(2,4,6));
+            Console.WriteLine("TEST : ");
+            Console.ReadLine();
         }
         static void Add(int number1, int number2)
         {
