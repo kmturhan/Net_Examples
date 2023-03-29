@@ -6,12 +6,7 @@
     <projectFile>test/test.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85412ba6-7d73-4559-b0c7-350769aaee41" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Net_Examples.dir/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Net_Examples.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Net_Examples.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Net_Examples.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/bin/Debug/net7.0/Methods.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/bin/Debug/net7.0/Methods.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Methods/bin/Debug/net7.0/Methods.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/bin/Debug/net7.0/Methods.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="85412ba6-7d73-4559-b0c7-350769aaee41" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +113,7 @@
       <workItem from="1680045825572" duration="602000" />
       <workItem from="1680101459866" duration="2884000" />
       <workItem from="1680124929874" duration="203000" />
-      <workItem from="1680130308131" duration="365000" />
+      <workItem from="1680130308131" duration="893000" />
     </task>
     <servers />
   </component>
