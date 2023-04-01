@@ -5,9 +5,23 @@ class Program
     static void Main(string[] args)
     {
         //InterfacesIntro();
+        //Demo();
+        List<ICustomerDal> customerDals = new List<ICustomerDal>
+        {
+            new SqlServerCustomerDal(),
+            new OracleCustomerDal()
+        };
+        foreach (var customerDal in customerDals)
+        {
+            customerDal.Add();
+        }
+        Console.ReadLine();
+    }
+
+    private static void Demo()
+    {
         CustomerManager customerManager = new CustomerManager();
         customerManager.Add(new OracleCustomerDal());
-        Console.ReadLine();
     }
 
     private static void InterfacesIntro()
