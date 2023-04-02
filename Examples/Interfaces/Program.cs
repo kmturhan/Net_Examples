@@ -60,7 +60,6 @@ class PersonManager
 {
     public void Add(IPerson customer)
     {
-        
         Console.WriteLine(customer.FirstName + " Added!");
     }
 }
