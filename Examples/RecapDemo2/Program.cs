@@ -17,7 +17,11 @@ class CustomerManager
         Console.WriteLine("Customer added!");
     }
 }
-
+/*
+    Aynı işi farklı yapılarda yapmamız gerektiği zaman yani her metodu ayrı ayrı kodlamamız gerekiyorsa "interface" kullanılmalı.
+    Aynı iş birkaç yerde aynı şekilde ama bir veya iki yerde farklılaşıyorsa yani aynı metodu ortak kullanacağımız ama bazı yerlerde ayrılan bi durum varsa "virtual method" kullanılmalı.
+    
+*/
 class Logger: ILogger
 {
     public void Log()
