@@ -13,6 +13,14 @@ newEmployee.Add();
 
 PersonManager person = new PersonManager("Product");
 person.Add();
+
+
+Teacher.Number = 20;
+Utilities.Validate();
+
+Manager.DoSomething();
+Manager manager = new Manager();
+manager.DoSomething2();
 Console.ReadLine();
 
 class CustomerManager
@@ -109,5 +117,30 @@ class PersonManager : BaseClass
 	{
 		Console.WriteLine("added");
 		Message();
+	}
+}
+
+static class Teacher
+{
+	public static int Number { get; set; }
+}
+
+static class Utilities
+{
+	public static void Validate()
+	{
+		Console.WriteLine("Validation is done!");
+	}
+}
+
+class Manager
+{
+	public static void DoSomething()
+	{
+		Console.WriteLine("done!");
+	}
+	public void DoSomething2()
+	{
+		Console.WriteLine("Done 2");
 	}
 }
