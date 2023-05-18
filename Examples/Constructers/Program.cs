@@ -127,6 +127,10 @@ static class Teacher
 
 static class Utilities
 {
+	static Utilities()
+	{
+
+	}
 	public static void Validate()
 	{
 		Console.WriteLine("Validation is done!");
