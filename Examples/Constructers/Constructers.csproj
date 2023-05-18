@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\AccessModifiers\AccessModifiers.csproj" />
-  </ItemGroup>
-
 </Project>
