@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiersDemo", "Acce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructers", "Constructers\Constructers.csproj", "{B0F32CBA-1639-4E7E-89D1-47791F41DCFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceAndValueType", "ReferenceAndValueType\ReferenceAndValueType.csproj", "{28A68561-3A28-44B8-8D22-5C7BC6881143}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceAndValueType", "ReferenceAndValueType\ReferenceAndValueType.csproj", "{28A68561-3A28-44B8-8D22-5C7BC6881143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{7AA61B65-5B21-4447-88AC-C6EE26185119}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{28A68561-3A28-44B8-8D22-5C7BC6881143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28A68561-3A28-44B8-8D22-5C7BC6881143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28A68561-3A28-44B8-8D22-5C7BC6881143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA61B65-5B21-4447-88AC-C6EE26185119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA61B65-5B21-4447-88AC-C6EE26185119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA61B65-5B21-4447-88AC-C6EE26185119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA61B65-5B21-4447-88AC-C6EE26185119}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
