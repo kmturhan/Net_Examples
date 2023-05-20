@@ -4,15 +4,22 @@ using System.Runtime.CompilerServices;
 
 Console.WriteLine("Hello, World!");
 
-try
-{
-	Find();
-}
-catch(RecordNotFoundException exception)
-{
-	Console.WriteLine(exception.Message);
-}
 
+HandleException(() => {
+	Find();
+});
+
+static void HandleException(Action action)
+{
+	try
+	{
+		action.Invoke();
+	}
+	catch (Exception exception)
+	{
+		Console.WriteLine(exception.Message);
+	}
+}
 
 static void Find()
 {
