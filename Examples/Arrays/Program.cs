@@ -2,6 +2,22 @@
 {
 	static void Main(string[] args)
 	{
+		//.net 6.0 new feature
+		List<string> testArray= new List<string>() { "test", "test2", "test3", "test4","test5", "test6", "test7","test8", "test9" };
+		var testArray2 = testArray.Take(3..7);
+		foreach (var item in testArray2)
+		{
+			Console.WriteLine(item);
+		}
+		/*
+		 * Output : 
+		test4
+		test5
+		test6
+		test7
+		 * 
+		 * */
+		Console.WriteLine("--------------------------------------");
 		string[] list = new string[] { "test", "test2", "test3" };
 		foreach (var item in list)
 		{
